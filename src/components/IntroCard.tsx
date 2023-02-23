@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import Transparentpfp from '../images/in_mac.png'
+import Transparentpfp from '@images/in_mac.png'
 const IntroCard = ({ section }) => {
 	return (
 		<motion.div
@@ -19,12 +19,9 @@ const IntroCard = ({ section }) => {
 			}}
 		>
 			<div className="relative overflow-hidden">
-				<div className="md:hidden absolute top-8 right-10 rotate-180 -mt-10 w-[100px]">
-					<Image className="dark:brightness-75" src={Transparentpfp} alt='icon'/>
-				</div>
 				<div className=''>
 					<motion.div
-						variants={{ groupHover: { y: 220 } }}
+						variants={{ groupHover: { y: 0 } }}
 						style={{ rotate: 180, zIndex: 20 }}
 						className="hidden 2xl:block absolute -top-32 2xl:-top-52 right-10 rotate-180
 						-mt-10 w-32 2xl:w-60"

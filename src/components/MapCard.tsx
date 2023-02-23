@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import PinIcon from "./Icons/PinIcon";
-import mapspfp from "../images/icon.png";
+import mapspfp from "@images/icon.png";
 
 const MapCard = ({ section }) => {
   const { resolvedTheme } = useTheme();

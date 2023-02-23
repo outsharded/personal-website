@@ -11,7 +11,7 @@ const ThemeSwitcher = ({ className = '' }) => {
 	}, [setTheme])
 
 	const toggleTheme = useCallback(() => {
-		setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')
+		setTheme(resolvedTheme === 'light' ? 'dark' : 'light')
 	}, [resolvedTheme, setTheme])
 
 	return (
