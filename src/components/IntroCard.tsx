@@ -20,7 +20,7 @@ const IntroCard = ({ section }) => {
 		>
 			<div className="relative overflow-hidden">
 				<div className="md:hidden absolute top-8 right-10 rotate-180 -mt-10 w-[100px]">
-					<Image className="dark:brightness-75" src={Transparentpfp} />
+					<Image className="dark:brightness-75" src={Transparentpfp} alt='icon'/>
 				</div>
 				<div className=''>
 					<motion.div
@@ -29,7 +29,7 @@ const IntroCard = ({ section }) => {
 						className="hidden 2xl:block absolute -top-32 2xl:-top-52 right-10 rotate-180
 						-mt-10 w-32 2xl:w-60"
 					>
-						<Image className="dark:brightness-90" src={Transparentpfp} />{' '}
+						<Image className="dark:brightness-90" src={Transparentpfp} alt='icon'/>{' '}
 					</motion.div>
 				</div>
 				<div>
@@ -38,17 +38,17 @@ const IntroCard = ({ section }) => {
 						style={{ rotate: 180, zIndex: 20 }}
 						className="2xl:hidden absolute -top-32 2xl:-top-52 right-10 rotate-180 -mt-10 w-32 2xl:w-60"
 					>
-						<Image className="dark:brightness-90" src={Transparentpfp} />{' '}
+						<Image className="dark:brightness-90" src={Transparentpfp} alt='icon'/>{' '}
 					</motion.div>
-					<div className="text-3xl md:text-4xl 2xl:text-4xl 2xl:mt-16 m-6 md:ml-6 ml-5 md:m-8 font-nunito font-bold">Hi, I&apos;m Ana!</div>
+					<div className="text-3xl md:text-4xl 2xl:text-4xl 2xl:mt-16 m-6 md:ml-6 ml-5 md:m-8 font-nunito font-bold">Hi, I&apos;m tectrainguy!</div>
 				</div>
 				<div className="flex flex-col ml-5 justify-center 2xl:mt-10 sm:-mt-6 sm:ml-8 md:ml-6">
 					<div className="lg:text-xl xl:text-2xl 2xl:mr-20 font-nunito dark:text-gray-300">
 						{' '}
-						Hi! I&apos;m a young developer from London!
+						I&apos;m a young developer from London!
 					</div>
 					<div className="flex lg:text-xl xl:text-2xl 2xl:text-2xl font-base dark:text-gray-300 mt-5">
-						I&apos;m interested in art, keyboards and meowies!
+					I develop stuff. 🛠️ I fix stuff. 🩹 I own the Swift Den. ✍🏼
 					</div>
 				</div>
 			</div>

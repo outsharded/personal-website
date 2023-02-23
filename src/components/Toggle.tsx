@@ -58,7 +58,7 @@ export default function Toggle() {
                       ? { scale: 0.1, rotate: 360, opacity: 0 }
                       : { scale: 1, rotate: 0, opacity: 1 }
                   }
-                  transition={{ duration: 0.4, ease: "easeInOut" }}
+                  transition={{ duration: 1, ease: "easeInOut" }}
                 >
                   <SunIcon className="w-3 h-3 stroke-yellow-400 fill-yellow-400 dark:hidden" />
                 </motion.div>
@@ -68,7 +68,7 @@ export default function Toggle() {
                       ? { scale: 1, rotate: 360, opacity: 1 }
                       : { scale: 0.1, rotate: 0, opacity: 0 }
                   }
-                  transition={{ duration: 0.4, ease: "easeInOut" }}
+                  transition={{ duration: 1, ease: "easeInOut" }}
                 >
                   <MoonIcon className="w-3 h-3  dark:stroke-sky-900 fill-sky-900 stroke-sky-900 hidden dark:block" />
                 </motion.div>
