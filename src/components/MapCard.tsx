@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import PinIcon from "./Icons/PinIcon";
-import mapspfp from "../images/favicon.png";
+import mapspfp from "../images/icon.png";
 
 const MapCard = ({ section }) => {
   const { resolvedTheme } = useTheme();
@@ -49,6 +49,7 @@ const MapCard = ({ section }) => {
             blurDataURL={data.blurDataURL}
             width={2000}
             height={2000}
+            alt='map'
           />
         )}
       </div>
@@ -68,7 +69,7 @@ const MapCard = ({ section }) => {
             }}
             className="relative h-24 w-24"
           >
-            <Image src={mapspfp} layout="fill" />
+            <Image src={mapspfp} layout="fill" alt='image of me'/>
           </motion.div>
         </div>
       </div>
