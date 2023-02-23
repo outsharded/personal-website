@@ -54,7 +54,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## 👋 Hi! Welcome to my website c:
+## 👋 Hi! Welcome to my website
 
 This is my current personal website! It's constantly in development and I thought I would make the code public so you can all see how my skills develop overtime. It's about the journey!
 
