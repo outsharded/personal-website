@@ -33,8 +33,6 @@
     <br />
     <br />
     <br />
-    <a href="https://https://anahoward.me">Check it out</a>
-    <a href="https://www.twitter.com/AnaArsonist">Request Feature</a>
   </p>
 </div>
 
