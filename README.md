@@ -24,10 +24,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://www.anahoward.me">
-    <img src="https://anahoward.me/images/transparentpfp.png" alt="Logo" width="80" height="80">
+  <a href="https://tecrainguy.xyz">
   </a>
-<h3 align="center">https://anahoward.me</h3>
+<h3 align="center">https://tectrainguy.xyz</h3>
 
   <p align="center">
     My personal website
