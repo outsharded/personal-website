@@ -5,37 +5,20 @@ export default function Document() {
 	return (
 		<Html className="">
 			<Head>
-				<title>Ana Howard - Colourful Haired Human</title>
-				<link rel="icon" type="image/png" href="https://anahoward.me/images/eyesemoji.png" />
-				<meta name="title" content="Ana Howard - Colourful Haired Human" />
+				<title>tectrainguy</title>
+				<link rel="icon" type="image/png" href="../images/favicon.png" />
+				<meta name="title" content="tectrainguy" />
 				{/* facebook  / open graph */}
-				<meta property="og:type" content="website" />
-				<meta property="og:url" content="https://www.anahoward.me"></meta>
-				<meta property="og:title" content="Ana Howard - Colourful Haired Human" />
-				<meta property="og:description" content="" />
-				<meta property="og:image" content="https://anahoward.me/images/preview.png"></meta>
 
 				{/* twitter */}
 				<meta property="twitter:card" content="summary_large_image" />
 				<meta property="twitter:url" content="https://www.anahoward.me" />
-				<meta property="twitter:title" content="Ana Howard - Colourful Haired Human" />
+				<meta property="twitter:title" content="tectrainguy" />
 				<meta property="twitter:description" content="" />
 				<meta property="twitter:image" content="https://anahoward.me/images/preview.png"></meta>
 
 				{/* <!-- Google tag (gtag.js) --> */}
-				<Script
-       				 src="https://www.googletagmanager.com/gtag/js?id=G-HERRG7L4LP"
-        				strategy="afterInteractive"
-      			/>
-      			<Script id="google-analytics" strategy="afterInteractive">
-				{`
-				window.dataLayer = window.dataLayer || [];
-				function gtag(){window.dataLayer.push(arguments);}
-				gtag('js', new Date());
 
-				gtag('config', 'G-HERRG7L4LP');
-				`}
-			</Script>
 			</Head>
 			<body className="bg-[#f7f2f2] dark:bg-gray-800">
 				<Main />

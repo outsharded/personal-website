@@ -24,7 +24,7 @@ export default function Toggle() {
   }, [resolvedTheme, setTheme]);
 
   useEffect(() => {
-    setTheme("light");
+    setTheme("dark");
   }, [setTheme]);
 
   return (

@@ -3,7 +3,7 @@ import { ArrowCircleUpIcon, MailIcon } from "@heroicons/react/outline";
 const MailCard = ({ section }) => {
   return (
     <motion.a
-      href="mailto:hello@anahoward.me"
+      href="mailto:hi@tectrainguy.xyz"
       target="_blank"
       rel="noreferrer"
       animate={{ opacity: ["all", "contact"].includes(section) ? 1 : 0.3 }}

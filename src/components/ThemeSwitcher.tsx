@@ -7,11 +7,11 @@ const ThemeSwitcher = ({ className = '' }) => {
 	const { resolvedTheme, setTheme } = useTheme()
 
 	useEffect(() => {
-		setTheme('light')
+		setTheme('dark')
 	}, [setTheme])
 
 	const toggleTheme = useCallback(() => {
-		setTheme(resolvedTheme === 'light' ? 'dark' : 'light')
+		setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')
 	}, [resolvedTheme, setTheme])
 
 	return (

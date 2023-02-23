@@ -2,11 +2,8 @@ import NavBar from "@/components/NavBar";
 import IntroCard from "@/components/IntroCard";
 import TwitterCard from "@/components/TwitterCard";
 import ToggleCard from "@/components/ToggleCard";
-import MeowyCard from "@/components/MeowyCard";
-import ArticleCard from "@/components/ArticleCard";
 import DiscordCard from "@/components/DiscordCard";
 import MailCard from "@/components/MailCard";
-import SpotifyCard from "@/components/SpotifyCard";
 import { useState } from "react";
 import MapCard from "@/components/MapCard";
 import OnlineCard from "@/components/OnlineCard";
@@ -25,19 +22,11 @@ function Home() {
         <TwitterCard section={section} />
         <ToggleCard section={section} />
         <DiscordCard section={section} />
-        <SpotifyCard section={section} />
-        <MeowyCard section={section} />
         <OnlineCard section={section} />
-        <ArticleCard section={section} />
         <MapCard section={section} />
         <MailCard section={section} />
         <TimeCard section={section} />
       </div>
-      <div className="flex justify-center items-center mt-10">
-        <a href="https://anahoward.me/2004.html">
-          <img src="https://cyber.dabamos.de/88x31/entranceorexit.gif" />
-        </a>
-        </div>
     </div>
   );
 }
