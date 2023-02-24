@@ -14,9 +14,6 @@ const NavBar = ({ setSection }) => {
 				>
 					About
 				</button>
-				<button className="hover:bg-gray-100 hover:rounded-3xl p-2 dark:hover:bg-gray-800 hidden focus:outline-none">
-					Work
-				</button>
 				<button
 					className="hover:bg-gray-100 hover:rounded-3xl p-2 dark:hover:bg-gray-800 focus:outline-none"
 					onClick={() => setSection('contact')}
