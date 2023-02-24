@@ -54,7 +54,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## 👋 Hi! Welcome to my website c:
+## 👋 Hi! Welcome to my website
 
 This is my current personal website! It's constantly in development and I thought I would make the code public so you can all see how my skills develop overtime. It's about the journey!
 
@@ -109,20 +109,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
-## Contact
+## Thanks to (forked from)
 
 Ana Howard - [@AnaArsonist](https://twitter.com/AnaArsonist) - hello@anahoward.me
 
 Project Link: [anahoward.me](https://github.com/AnaArsonist/anahoward.me.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE -->
-## Usage
-
-If you wish to use this repository, feel free! But please include my name in the repository and give me valid credit!
-
-## meow
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
