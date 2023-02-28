@@ -22,7 +22,6 @@ function Home() {
         <IntroCard section={section} />
         <MapCard section={section} />
         <ToggleCard section={section} />
-        
         <OnlineCard section={section} />
         <TwitterCard section={section} />
         <MailCard section={section} />

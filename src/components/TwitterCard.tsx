@@ -7,7 +7,7 @@ const TwitterCard = ({ section }) => {
 			target="_blank"
 			rel="noreferrer"
 			animate={{ opacity: ['all', 'about', 'contact'].includes(section) ? 1 : 0.3 }}
-			className="flex justify-center items-center bg-sky-400 relative dark:bg-sky-700 rounded-3xl col-span-1"	
+			className="flex justify-center items-center  relative bg-[#1DA1F2] dark:bg-sky-700 rounded-3xl col-span-1"	
 			whileHover="groupHover"
 			variants={{
 				groupHover: {

@@ -35,7 +35,7 @@ export default function Toggle() {
       onKeyDown={(e) => e.preventDefault()}
       onKeyUp={(e) => e.preventDefault()}
       className={classNames(
-        enabled ? "bg-gray-800" : "bg-gray-200",
+        enabled ? "bg-slate-200" : "bg-slate-800",
         "relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none"
       )}
     >
@@ -58,7 +58,7 @@ export default function Toggle() {
                       ? { scale: 0.1, rotate: 360, opacity: 0 }
                       : { scale: 1, rotate: 0, opacity: 1 }
                   }
-                  transition={{ duration: 1, ease: "easeInOut" }}
+                  transition={{ duration: 0.5, ease: "easeInOut" }}
                 >
                   <SunIcon className="w-3 h-3 stroke-yellow-400 fill-yellow-400 dark:hidden" />
                 </motion.div>
@@ -68,7 +68,7 @@ export default function Toggle() {
                       ? { scale: 1, rotate: 360, opacity: 1 }
                       : { scale: 0.1, rotate: 0, opacity: 0 }
                   }
-                  transition={{ duration: 1, ease: "easeInOut" }}
+                  transition={{ duration: 0.5, ease: "easeInOut" }}
                 >
                   <MoonIcon className="w-3 h-3  dark:stroke-sky-900 fill-sky-900 stroke-sky-900 hidden dark:block" />
                 </motion.div>

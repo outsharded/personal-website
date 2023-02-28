@@ -6,7 +6,7 @@ const SwiftDen = ({ section }) => {
 		href="https://discord.gg/hzDzBcP2Xv"
 		target="_blank"
 		rel="noreferrer"
-			className="col-span-3 md:col-span-2 bg-white dark:bg-gray-900
+			className="col-span-3 md:col-span-2 bg-white dark:bg-slate-900
 			 rounded-3xl text-gray-600 dark:text-gray-300 aspect-2/1 pb-4 md:pb-0"
 			whileHover="groupHover"
 			animate={{ opacity: ['all', 'contact'].includes(section) ? 1 : 0.3 }}

@@ -21,7 +21,7 @@ const DiscordCard = ({ section }) => {
 					},
 				},
 			}}
-			className="rounded-3xl bg-indigo-400 dark:bg-indigo-700 flex justify-center items-center col-span-1 relative aspect-square group"
+			className="rounded-3xl bg-[#5865F2] dark:bg-[#454FBF] flex justify-center items-center col-span-1 relative aspect-square group"
 		>
 			<div className="h-full w-full flex justify-center items-center">
 				<img src="/images/staticdiscordspinner.png" className="absolute w-72 md:w-72 lg:w-72 xl:w-[500px] xl:scale-125 group-hover:opacity-0" alt='discord logo'/>
