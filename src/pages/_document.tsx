@@ -5,7 +5,7 @@ export default class WebsiteDocument extends Document {
 		return (
 			<Html>
 				<Head>
-				<link rel="icon" type="image/png" href="https://tec-kids.co.uk/in-mac.png" />
+				<link rel="icon" type="image/png" href="https://static.tectrainguy.xyz/in-mac.png" />
 				</Head>
 				<body className="bg-[#f7f2f2] dark:bg-zinc-800">
 					<Main />

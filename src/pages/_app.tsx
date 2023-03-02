@@ -12,7 +12,7 @@ export default function App({Component, pageProps}: AppProps) {
 			<Head>
 				<title>tectrainguy</title>
 				<meta content="width=device-width, initial-scale=1" name="viewport" />
-				<link rel="icon" type="image/png" href="https://tec-kids.co.uk/in-mac.png" />
+				<link rel="icon" type="image/png" href="https://static.tectrainguy.xyz/in-mac.png" />
 			</Head>
 			<ThemeProvider attribute="class">
 			<Component {...pageProps} />
