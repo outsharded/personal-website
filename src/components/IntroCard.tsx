@@ -38,7 +38,7 @@ const IntroCard = ({ section }) => {
 					>
 						<Image className="dark:brightness-90" src={Transparentpfp} alt='icon'/>{' '}
 					</motion.div>
-					<div className="text-3xl md:text-4xl 2xl:text-4xl 2xl:mt-16 m-6 md:ml-6 ml-5 md:m-8 font-nunito font-bold">Hi, I&apos;m tectrainguy!</div>
+					<div className="text-3xl md:text-4xl 2xl:text-4xl 2xl:mt-16 m-6 md:ml-6 ml-5 md:m-8 font-nunito font-bold">Hi, I&apos;m outsharded!</div>
 				</div>
 				<div className="flex flex-col ml-5 justify-center 2xl:mt-10 sm:-mt-6 sm:ml-8 md:ml-6">
 					<div className="lg:text-xl xl:text-2xl 2xl:mr-20 font-nunito dark:text-gray-300">
