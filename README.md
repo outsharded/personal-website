@@ -14,10 +14,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-
-<h3 align="center">https://tectrainguy.xyz</h3>
-
+<div align="center"
   <p align="center">
     My personal website
     <br />
