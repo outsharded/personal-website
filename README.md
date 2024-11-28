@@ -15,8 +15,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://tecrainguy.xyz">
-  </a>
+
 <h3 align="center">https://tectrainguy.xyz</h3>
 
   <p align="center">
